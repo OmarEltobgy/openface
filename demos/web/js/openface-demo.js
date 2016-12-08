@@ -102,7 +102,7 @@ function getPeopleInfoHtml() {
 }
 
 function redrawPeople() {
-    defaultPerson = people.length - 1;
+//     defaultPerson = people.length - 1;
     var context = {people: people, images: images};
     $("#peopleTable").html(peopleTableTmpl(context));
 
